@@ -6,23 +6,29 @@
     <title>Ask Her Out</title>
     <link rel="stylesheet" href="./style.css" />
     <style>
-      /* Ensuring the text is visible */
+      /* Ensuring the text is visible and properly aligned */
       body {
         font-family: Arial, sans-serif;
         text-align: center;
         background-color: #fce4ec; /* Light pink background for a romantic feel */
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
       .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        width: 90%;
+        max-width: 500px;
       }
       .gif-container {
-        margin-bottom: 20px;
+        width: 100%;
+        max-width: 400px; /* Ensuring the GIF stays properly sized */
       }
       .text-content {
         font-size: 20px;
@@ -32,6 +38,7 @@
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
       }
     </style>
   </head>
@@ -44,12 +51,7 @@
           data-share-method="host"
           data-aspect-ratio="1.37853"
           data-width="100%"
-        >
-          <a href="https://tenor.com/view/mochi-cat-mochi-and-goma-goma-and-peach-mochi-mochi-peach-cat-gif-gif-253027946666209433">
-            Mochi Cat GIF
-          </a>
-          from <a href="https://tenor.com/search/mochi-gifs">Mochi GIFs</a>
-        </div>
+        ></div>
         <script
           type="text/javascript"
           async
@@ -64,3 +66,4 @@
     </div>
   </body>
 </html>
+
